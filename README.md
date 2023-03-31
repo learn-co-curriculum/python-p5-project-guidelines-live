@@ -1,4 +1,4 @@
-# Phase 5 Project Guidelines
+# [Live] Phase 5 Project Guidelines
 
 It is time. Your final project for this course. This is the capstone project
 that you'll be showing off to demonstrate all the things that you've learned so
@@ -24,43 +24,20 @@ that knowledge.
 
 ## Project Requirements
 
-The listed requirements below are guidelines that should help you to determine
-what the complexity of your project should be. They are not hard and fast rules,
-and final project approval is up to your leads and SECs, who will be acting as
-project managers.
+You must meet the following Phase 5 Project Minimum Requirements:
 
-### Backend
+- Implement Flask and SQLAlchemy in an application backend.
+- Include a many to many relationship.
+- Implement a minimum of 4 models.
+- Implement a minimum of 5 client side routes using React router.
+- Include full CRUD on at least 1 model, following REST conventions.
+- Implement validations and error handling.
+- Implement something new not taught in the curriculum. (Check in with your
+  instructor to ensure the scope of your idea is appropriate.)
+- Implement `useContext` or Redux.
 
-Your project must use a non-trivial Rails backend. Consult the following list
-for examples of things to include. You do not need to include all of these
-things, and the final decision of what must be included will be up to your
-project managers.
-
-- [ ] Auth
-- [ ] Tests
-- [ ] Multiple has_many_through relationships
-- [ ] Seeds from a complex data set
-- [ ] Custom routes
-- [ ] Custom controller/model methods
-- [ ] Basic database query optimizations
-- [ ] Background jobs for slow actions
-- [ ] Sockets or email integration
-- [ ] One significant refactor
-- [ ] Validation
-
-### Frontend
-
-Your product must use a React based frontend. Consult the following list for
-examples of things to include. You do not need to include all of these things,
-and the final decision of what must be included will be up to your project
-manager (your instructor).
-
-- [ ] Auth
-- [ ] Tests
-- [ ] Interacting with a complex API
-- [ ] Redux
-- [ ] Custom CSS
-- [ ] One significant refactor
+** Please discuss with your instructor if you have any issues aligning these
+requirements with your project.
 
 ## Helpful Tools
 
@@ -84,10 +61,5 @@ breaks. We like Marinara Timer, since it's nicely customizable.
 - [CSS Tricks](https://css-tricks.com/) — Learn yourself some sweet CSS
 - [Semantic UI React](https://react.semantic-ui.com/) / [ReactStrap](https://reactstrap.github.io/) — CSS styling using React components
 - [Postman](https://www.getpostman.com/) — Test your backend without having to build out a frontend
-- [Heroku](https://www.heroku.com/) — Simple, free hosting for your site
+- [Render](https://render.com/) — Simple, free hosting for your site
 - [App Ideas](https://medium.com/better-programming/https-medium-com-sylwiavargas-37-app-ideas-for-bootcamp-students-code-newbies-5000f4b6dba9?) — some ideas for non-standard apps
-- How to hide API keys in
-  [Javascript](https://geodoo.work/hide-secure-api-keys-created-app-create-react-app/)
-  /
-  [Ruby](https://blog.arkency.com/2017/07/how-to-safely-store-api-keys-in-rails-apps/)
-  | [option 2](https://github.com/laserlemon/figaro)
